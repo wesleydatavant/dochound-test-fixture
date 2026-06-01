@@ -7,22 +7,22 @@ A Python toolkit for building widgets, currently at version 3.1.0.
 ```bash
 git clone https://github.com/wesleydatavant/dochound-test-fixture.git
 cd dochound-test-fixture
-pip install widget-factory
+poetry install
 ```
 
 ## Getting Started
 
-Use the `WidgetBuilder` to create widgets and `GadgetAssembler` to combine them.
+Use the `WidgetBuilder` to create widgets.
 
 The `render_widget` function converts a widget to HTML output.
 
 See the [installation guide](docs/install.md) for detailed setup.
 
-For architecture details, read [the design doc](docs/design.md).
+For architecture details, read the design doc (docs/design.md - to be created).
 
-Check out [the changelog](CHANGELOG.md).
 
-Jump to the [FAQ](#frequently-asked-questions) section below.
+
+
 
 ## CLI
 
@@ -32,7 +32,7 @@ Jump to the [FAQ](#frequently-asked-questions) section below.
 ## Usage
 
 ```bash
-cd /Users/alice/projects/widget-factory
+cd /path/to/widget-factory
 widget build --output-dir dist
 ```
 
