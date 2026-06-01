@@ -1,0 +1,14 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "widget-factory"
+version = "3.2.0"
+description = "A test fixture for dochound integration tests"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+widget = "widget_factory.cli:main"
